@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var str, str2;
+
+        // str = prompt("Задача 1.\nВведите первую строку для сравнения:");
+        // str2 = prompt("Введите вторую строку для сравнения:");
+        // function compareStr(givenStr1, givenStr2){
+        //     if (givenStr1.length > givenStr2.length)
+        //         return 1;
+        //     if (givenStr1.length < givenStr2.length)
+        //         return -1;
+        //     return 0;
+        // }
+        // alert(compareStr(str, str2));
+
+
+        // str = prompt("Задача 2.\nВведите строку:");
+        // function upperChar(givenStr){
+        //     return givenStr[0].toUpperCase() + givenStr.substr(1);
+        // }
+        // alert(upperChar(str));
+
+
+        // str = prompt("Задача 3.\nВведите строку для подсчета в ней гласных букв:");
+        // function countVowels(givenStr){
+        //     givenStr = givenStr.toLowerCase();
+        //     let vowels = "уеыаоэяию", count = 0;
+        //     for (i = 0; i < givenStr.length; i++)
+        //         for (j = 0; j < vowels.length; j++)
+        //             if(givenStr[i] == vowels[j]){
+        //                 count++;
+        //                 break;
+        //             }
+        //     return count;
+        // }
+        // alert(countVowels(str));
+
+
+        // str = prompt("Задача 4.\nВведите сообщение для проверки на спам:");
+        // function checkSpam(givenStr){
+        //     givenStr = givenStr.toLowerCase();
+        //     let spams = ["100% бесплатно" , "Увеличение продаж" , "только сегодня"];
+        //     spams[spams.length] = "Не удаляйте";
+        //     for(i = 0; i < spams.length; i++)
+        //         if (givenStr.indexOf(spams[i]) != -1)
+        //             return true;
+        //     return false;
+        // }
+        // if (checkSpam(str))
+        //     alert("Обнаружен спам!");
+        // else
+        //     alert("Спама не обнаружено!");
+
+
+        // str = prompt("Задача 5.\nВведите строку для сокращения:");
+        // let max = +prompt("Введите максимальную длину строки:");
+        // function cutStr(givenStr, maxEnd){
+        //     if(givenStr.lenght > maxEnd)
+        //         return givenStr.substring(0, maxEnd - 3) + "...";
+        //     return givenStr;
+        // }
+        // alert(cutStr(str, max));
+
+		// str = prompt("Задача 6.\nВведите слово для проверки на палиндром:");
+		// function palindrome (givenStr){
+		// 	for (i = 0; i < givenStr.length / 2; i++)
+		// 		if (givenStr[i].toLowerCase() != givenStr[givenStr.length - i - 1].toLowerCase())
+		// 			return false;
+		// 	return true;
+		// }
+		// alert(palindrome(str));
+
+		// str = prompt("Задача 7.\nВведите предложение для подсчета в нем слов:");
+		// function countWords (givenStr){
+		// 	if (givenStr == "")
+		// 		return 0;
+		// 	let index = givenStr.indexOf(" ");
+		// 	let count = 1;
+		// 	while (index != -1){
+		// 		count++;
+		// 		index = givenStr.indexOf(" ", index + 1);
+		// 	}
+		// 	return count;
+		// }
+		// alert("Количество слов в предложении = " + countWords(str));
+
+
+		// str = prompt("Задача 8.\nВведите предложение для поиска самого длинного слова:");
+		// function maxLength(givenStr){
+		// 	if (givenStr == "")
+		// 		return 0;
+		// 	let splitStr = givenStr.split(" ");
+		// 	let max = splitStr[0].length;
+		// 	for(i = 1; i < splitStr.length; i++)
+		// 		if (splitStr[i].length > max)
+		// 			max = splitStr[i].length;
+		// 	return max;
+		// }
+		// alert("Максимальная длина слова в предложении = " + maxLength(str));
+
+
+		// str = prompt("Задача 9.\nВведите предложение для поиска средней длины слова в нем:");
+		// function meanValue(givenStr){
+		// 	let splitStr = givenStr.split(" ");
+		// 	let sum = 0;
+		// 	for(i = 1; i < splitStr.length; i++)
+		// 			sum += splitStr[i].length;
+		// 	return sum / splitStr.length;
+		// }
+		// alert("Средная длина слова = " + meanValue(str));
+
+
+		function sum(a,b)
+			alert(a+b);
+		setTimeout(sum, 2000, 1, 2);
+
+		
+
+
+    </script>
+</body>
+</html>
